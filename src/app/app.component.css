@@ -1,0 +1,43 @@
+p {
+  font-family: Lato;
+}
+.message {
+    border-radius: 50px;
+    margin: 0 15px 10px;
+    padding: 15px 20px;
+    position: relative;
+    font-weight: bold;
+}
+.message.to {
+    background-color: #2095FE;
+    color: #fff;
+    margin-left: 550px;
+    margin-right: 350px;
+    text-align: right;
+}
+.message.from {
+    background-color: #E5E4E9;
+    color: #363636;
+    margin-right: 550px;
+    margin-left: 350px;
+
+}
+.message.to + .message.to,
+.message.from + .message.from {
+margin-top: -10px;
+}
+
+.question {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 0;
+  position: fixed;
+  bottom: 0;
+}
+
+.container {
+  height: 80vh;
+  overflow-y: scroll;
+}
+
